@@ -71,7 +71,7 @@ Escribí comentarios describiendo cada parte del programa y GitHub Copilot fue s
 
 ![Paso 6 - Copilot generando código (7)](capturas/captura7.jpg)
 
-![Paso 6 - Copilot generando código (8)](capturas/captura8.jpg)
+
 
 ### Paso 7: Ejecutar el programa
 Instalé las librerías necesarias y ejecuté el programa:
@@ -80,6 +80,7 @@ Instalé las librerías necesarias y ejecuté el programa:
 pip install pandas numpy scikit-learn
 python recommendation_system.py
 ```
+![Paso 6 - Copilot generando código (8)](capturas/captura8.jpg)
 
 ### Paso 8: Subir los cambios a GitHub
 Agregué los archivos, hice commit y los subí al repositorio remoto:
