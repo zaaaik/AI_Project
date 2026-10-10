@@ -12,7 +12,6 @@ GitHub Copilot (asistente de programación con IA)
 Visual Studio Code
 Git
 Python 3 con las librerías pandas, numpy y scikit-learn
-
 📋 Proceso paso a paso
 Paso 1: Crear la cuenta en GitHub
 Ingresé a github.com, creé mi cuenta con mi correo electrónico y la validé con el código de verificación que me llegó.
@@ -91,8 +90,9 @@ La función recommend_product está definida pero nunca se llama, por eso no apa
 La función tiene un error con los índices: kneighbors devuelve posiciones dentro de los datos de entrenamiento, pero la función las busca en el dataset completo (df). Por eso, al probar recommend_product(1) (Laptop), devuelve [4, 1] (Headphones y Laptop), cuando debería recomendar un producto de precio parecido como Smartphone.
 El dataset es muy pequeño (5 productos), así que el resultado sirve solo como ejemplo.
 numpy se importa, pero no se usa.
-
 💡 Conclusión
 GitHub Copilot facilitó la creación del código: a partir de comentarios escritos en lenguaje natural sugirió la estructura completa del programa, desde la creación de los datos hasta el entrenamiento del modelo y una función de recomendación.
 
 Sin embargo, la revisión del código mostró que no siempre genera lo que se le pide ni lo hace sin errores. Cambió el tipo de modelo, omitió el cálculo de precisión y la función de recomendación tiene un error con los índices. Esto demuestra que Copilot es una herramienta muy útil para acelerar el desarrollo, pero el programador debe revisar, probar y entender el código generado antes de usarlo.
+
+📚 Referencias
