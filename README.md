@@ -1,7 +1,9 @@
 # AI_Project: Sistema de recomendación con GitHub Copilot
 
 **Autor:** Diego Ignacio Ulloa Perez
+
 **Asignatura:** Tendencias de Inteligencia Artificial Aplicada – Semana 8
+
 **Institución:** INACAP
 
 ## 📌 Descripción
@@ -25,17 +27,11 @@ Se desarrolló un **sistema de recomendación de productos** en Python basado en
 ### Paso 1: Crear la cuenta en GitHub
 Ingresé a [github.com](https://github.com/), creé mi cuenta con mi correo electrónico y la validé con el código de verificación que me llegó.
 
-![Paso 1 - Crear cuenta](capturas/captura1.jpg)
-
 ### Paso 2: Activar GitHub Copilot (plan gratis)
 En la sección de precios seleccioné el plan **Gratis** de GitHub Copilot.
 
-![Paso 2 - Plan gratis](capturas/captura2.jpg)
-
 ### Paso 3: Crear el repositorio
 Desde el Dashboard hice clic en **New** y creé el repositorio **`AI_Project`** como público, con un archivo README.
-
-![Paso 3 - Crear repositorio](capturas/captura3.jpg)
 
 ### Paso 4: Clonar el repositorio en mi computador
 En el terminal de Visual Studio Code cloné el repositorio con:
@@ -45,12 +41,8 @@ git clone https://github.com/zaaaik/AI_Project.git
 cd AI_Project
 ```
 
-![Paso 4 - Clonar repositorio](capturas/captura4.jpg)
-
 ### Paso 5: Crear el archivo de código
 En Visual Studio Code creé el archivo **`recommendation_system.py`**.
-
-![Paso 5 - Crear archivo](capturas/captura5.jpg)
 
 ### Paso 6: Generar el código con GitHub Copilot
 Escribí comentarios describiendo cada parte del programa y GitHub Copilot fue sugiriendo el código. Los comentarios que usé fueron:
@@ -65,7 +57,21 @@ Escribí comentarios describiendo cada parte del programa y GitHub Copilot fue s
 # Función para recomendar un producto
 ```
 
-![Paso 6 - Copilot generando código](capturas/captura6.jpg)
+![Paso 6 - Copilot generando código (1)](capturas/captura1.jpg)
+
+![Paso 6 - Copilot generando código (2)](capturas/captura2.jpg)
+
+![Paso 6 - Copilot generando código (3)](capturas/captura3.jpg)
+
+![Paso 6 - Copilot generando código (4)](capturas/captura4.jpg)
+
+![Paso 6 - Copilot generando código (5)](capturas/captura5.jpg)
+
+![Paso 6 - Copilot generando código (6)](capturas/captura6.jpg)
+
+![Paso 6 - Copilot generando código (7)](capturas/captura7.jpg)
+
+![Paso 6 - Copilot generando código (8)](capturas/captura8.jpg)
 
 ### Paso 7: Ejecutar el programa
 Instalé las librerías necesarias y ejecuté el programa:
@@ -75,8 +81,6 @@ pip install pandas numpy scikit-learn
 python recommendation_system.py
 ```
 
-![Paso 7 - Resultado de la ejecución](capturas/captura7.jpg)
-
 ### Paso 8: Subir los cambios a GitHub
 Agregué los archivos, hice commit y los subí al repositorio remoto:
 
@@ -85,8 +89,6 @@ git add .
 git commit -m "Add recommendation system example"
 git push -u origin main
 ```
-
-![Paso 8 - Push a GitHub](capturas/captura8.jpg)
 
 ---
 
